@@ -1,32 +1,7 @@
-#topbar{
-	background: #3D678C;
-	border: 1px solid white;
-}
-
-#topbar .section p{
-	background: #3D678C;
-	border: 1px solid white;
-}
-
-#topbar .section p a{
-	color: white;
-}
-
-#topbar .active p{
-	background: #E78931;
-}
-
-#topbar .active p a{
-	color: white;
-}
-
-header{
-	margin: 20px 0 5px;
-}
-
 header h1{
 	margin: 0 0 10px;
 	padding: 0;
+
 }
 
 header h1 a{
@@ -91,6 +66,32 @@ header h1 a{
 
 #social ul li a.twitter{
 	background: url(../img/icon_twitter.png) no-repeat;
+}
+
+#navigation h2{
+	display: none;
+}
+
+#navigation nav {
+	background: #3D678C;
+	border: 1px solid white;
+}
+
+#navigation nav .section p{
+	background: #3D678C;
+	border: 1px solid white;
+}
+
+#navigation nav .section p a{
+	color: white;
+}
+
+#navigation nav .active p{
+	background: #E78931;
+}
+
+#navigation nav .active p a{
+	color: white;
 }
 
 .slideshow-wrapper{
