@@ -90,7 +90,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5em;
+  max-width: 60em;
   *zoom: 1; }
   .row:before, .row:after {
     content: " ";
@@ -3027,7 +3027,7 @@ label.error {
       background: #111111; }
 
   .contain-to-grid .top-bar {
-    max-width: 62.5em;
+    max-width: 60em;
     margin: 0 auto;
     margin-bottom: 1.875em; }
 
