@@ -4,6 +4,7 @@ Slicing PSD Free Template into a standard HTML and CSS files.<br>
 [Gustavo Jose Morales Carpio](http://about.me/gustavo.morales) (Front End Web Developer)
 
 ## Features
+Version 1.0.0
 - HTML Compilant with W3C Validator.
 - HTML Web Semantic
 - HTML5 Tags: header, nav, aside, section, article and footer
