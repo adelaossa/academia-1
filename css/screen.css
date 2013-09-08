@@ -1,12 +1,12 @@
 header h1{
 	margin: 0 0 10px;
 	padding: 0;
-
+	width: 420px;
 }
 
 header h1 a{
-	background: url(../img/logo.png) no-repeat;
-	background-size: auto;
+	background: url(../img/logo.png) center center no-repeat;
+	background-size: contain;
 	display: block;
 	height: 65px;
 	outline: none;
@@ -84,6 +84,8 @@ header h1 a{
 
 #navigation nav .section p a{
 	color: white;
+	font-size: 0.8em;
+	padding: 0.8em;
 }
 
 #navigation nav .active p{
@@ -236,29 +238,33 @@ footer{
 	margin:80px 0 40px 0;
 }
 
-footer ul{
-	margin: 28px 0 12px 0;
-	padding: 0;
-}
-
-footer ul li{
-	display: inline;
-	list-style-type: none;
-	padding-right: 20px;
-}
-
-footer ul li a{
-	color: #005392;
-	font-size: 0.7em;
-	font-weight: bold;
-}
-
 footer p{
 	color: #777;
 	font-size: 0.7em;
 }
 
-footer h2{
+footer .navigation h2{
+	display: none;
+}
+
+footer .navigation ul{
+	margin: 28px 0 12px 0;
+	padding: 0;
+}
+
+footer .navigation ul li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+footer .navigation ul li a{
+	color: #005392;
+	font-size: 0.7em;
+	font-weight: bold;
+}
+
+footer .contact h2{
 	color: black;
 	font-size: 11px;
 	font-weight: normal;
@@ -267,11 +273,33 @@ footer h2{
 	text-transform: uppercase;
 }
 
-footer address{
+footer .contact address{
 	color: #777;
 	font-size: 0.7em;
 	font-style: normal;
 	line-height: 1.4em;
 }
 
+footer .legal{
+	margin-top: -40px;
+}
+
+footer .legal h2{
+	display: none;
+}
+
+@media only screen and (max-width: 768px) {
+	aside{
+		margin-top: 0;
+	}
+	#sections{
+		margin-top: 10px;
+	}
+	footer{
+		margin: 0;
+	}
+	footer .legal{
+		margin-top: 10px;
+	}
+}
 
