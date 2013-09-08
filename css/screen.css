@@ -72,25 +72,21 @@ header h1 a{
 
 #navigation nav {
 	background: #3D678C;
-	border: 1px solid white;
 }
 
-#navigation nav .section p{
+#navigation nav .top-bar-section ul li{
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+#navigation nav .top-bar-section ul li a{
 	background: #3D678C;
-	border: 1px solid white;
-}
-
-#navigation nav .section p a{
 	color: white;
 	font-size: 0.8em;
-	padding: 0.8em;
 }
 
-#navigation nav .active p{
+#navigation nav .top-bar-section ul li a.active{
 	background: #E78931;
-}
-
-#navigation nav .active p a{
 	color: white;
 }
 
