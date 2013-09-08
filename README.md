@@ -5,10 +5,11 @@ Slicing PSD Free Template into a standard HTML and CSS files.<br>
 
 ## Features
 - HTML Compilant with W3C Validator.
-- HTML5 Tags: header, nav, section, article and footer
-- HTML Semantic
-- CSS grid made with Zurb Foundation 4
+- HTML Web Semantic
+- HTML5 Tags: header, nav, aside, section, article and footer
+- CSS3
 - Responsive Web Design
+- Build with Zurb Foundation 4
 
 See the changelog in the [Wiki](https://github.com/gmoralesc/academia/wiki)
 
