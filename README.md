@@ -11,7 +11,10 @@ Version 1.1.0
 - CSS3
 - Responsive Web Design
 - Build with Zurb Foundation 4
-- Support Internet Explorer 8+ and the rest of Standard Browsers in the World
+
+## Compatibility
+- All modern browser [Foundation 4 Documentation - Browser and Device Support](http://foundation.zurb.com/docs/support.html)
+- Working in support for IE8
 
 See the changelog in the [Wiki](https://github.com/gmoralesc/academia/wiki)
 
