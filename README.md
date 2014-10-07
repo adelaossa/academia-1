@@ -4,17 +4,15 @@ Slicing PSD Free Template into a standard HTML and CSS files.<br>
 [Gustavo Jose Morales Carpio](http://about.me/gustavo.morales) (Front End Web Developer)
 
 ## Features
-Version 1.1.0
+Version 2.0.0
 - HTML and CSS Compilant with W3C Validator.
 - HTML Web Semantic
 - HTML5 Tags: header, nav, aside, section, article and footer
 - CSS3
 - Responsive Web Design
-- Build with Zurb Foundation 4
-
-## Compatibility
-- All modern browser [Foundation 4 Documentation - Browser and Device Support](http://foundation.zurb.com/docs/support.html)
-- Working in support for IE8
+- Build with Zurb Foundation 5
+- Orbit Slider
+- Clearing Thumbs
 
 See the changelog in the [Wiki](https://github.com/gmoralesc/academia/wiki)
 
