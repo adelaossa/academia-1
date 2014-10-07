@@ -1,10 +1,18 @@
+a{
+	color: #0c5390;
+}
+
+a:hover{
+	color: #f99734;
+}
+
 header h1{
-	margin: 0 0 10px;
+	margin: 20px 0 10px;
 	padding: 0;
 }
 
 header h1 a{
-	background: url(../img/logo.png) center center no-repeat;
+	background: url(../img/logo.png) left center no-repeat;
 	background-size: contain;
 	display: block;
 	height: 65px;
@@ -13,7 +21,7 @@ header h1 a{
 }
 
 #search{
-	margin: 0 0 10px;
+	margin: 20px 0 10px;
 }
 
 #search h2{
@@ -21,14 +29,22 @@ header h1 a{
 }
 
 #search form{
-	margin: 0;
+	margin: 0;	
+}
+
+#search form input[type="search"]{
+	font-size: 10px;
+	height: 32px;
+	text-transform: lowercase;
 }
 
 #search form input[type="submit"]{
 	background: #19538E;
 	border: 0;
 	color: white;
+	font-size: 10px;
 	height: 32px;
+	text-transform: lowercase;
 	width: 100%;
 }
 
@@ -66,6 +82,80 @@ header h1 a{
 	background: url(../img/icon_twitter.png) no-repeat;
 }
 
+#main h2{
+	color: #333;
+	font-family: Georgia, "Times News Roman", serif;	
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 46px;
+	letter-spacing: -1px;
+	margin-bottom: 30px;
+}
+
+#main p{
+	font-size: 14px;
+	line-height: 25px;
+}
+
+#main img.left{
+	padding: 0 10px 10px 0;
+}
+
+footer{
+	border-top: 1px solid #E78931;
+	margin:80px 0 40px 0;
+}
+
+footer p{
+	color: #777;
+	font-size: 11px;
+}
+
+footer .navigation h2{
+	display: none;
+}
+
+footer .navigation ul{
+	margin: 28px 0 12px 0;
+	padding: 0;
+}
+
+footer .navigation ul li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+footer .navigation ul li a{
+	color: #005392;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+footer .contact h2{
+	color: black;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 28px 0 12px 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+footer .contact address{
+	color: #777;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 22px;
+}
+
+footer .legal{
+	margin-top: -40px;
+}
+
+footer .legal h2{
+	display: none;
+}
+
 #navigation h2{
 	display: none;
 }
@@ -82,12 +172,14 @@ header h1 a{
 #navigation nav .top-bar-section ul li a{
 	background: #3D678C;
 	color: white;
-	font-size: 0.8em;
+	font-size: 12px;
+	text-shadow: #264c6c 1px 1px 0;
 }
 
 #navigation nav .top-bar-section ul li a.active{
 	background: #E78931;
 	color: white;
+	text-shadow: #b86d21 1px 1px 0;
 }
 
 .slideshow-wrapper{
@@ -98,6 +190,69 @@ header h1 a{
 
 .orbit-bullets{
 	display: none;
+}
+
+#gallery{
+	border-top: 1px solid #E78931;
+}
+
+#gallery h2{
+	color: #005392;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 24px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	margin: 24px 0 36px 0;
+}
+
+#gallery h2:after{
+	content: "»";
+	padding-left: 5px;
+}
+
+#gallery img{
+	height: 100%;
+	width: 100%;
+}
+
+aside{
+	margin-top: 75px;
+}
+
+aside h2{
+	color: #0c5390;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+aside h2:after{
+	content: "»";
+	padding-left: 5px;
+}
+
+aside article{
+	border-bottom: 1px solid #CCC;
+}
+
+aside article h3{
+	color: #005392;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+aside article p{
+	font-size: 12px;
+}
+
+aside article img.left{
+	height: 40px;
+	margin: 0 20px 0 0;
+	width: 60px;
 }
 
 #sections{
@@ -145,155 +300,22 @@ header h1 a{
 }
 
 #sections > ul > li > ul li a{
+	font-size: 12px;
 	font-weight: normal;
+}
+
+.side-nav li a:not(.button){
+	padding: 0;
+}
+
+#sections a{
+	color: #0c5390;
+}
+
+#sections a:hover{
+	color: #f99734;
 }
 
 #sections a.active{
 	color: black;
 }
-
-#main h2{
-	font-family: Georgia, "Times News Roman", serif;
-	font-size: 2em;
-	font-weight: normal;
-}
-
-#main p{
-	font-size: 0.85em;
-}
-
-#main img.left{
-	padding: 0 10px 10px 0;
-}
-
-#gallery{
-	border-top: 1px solid #E78931;
-}
-
-#gallery h2{
-	color: #005392;
-	font-family: Georgia, "Times New Roman", serif;
-	font-size: 1.5em;
-	font-weight: normal;
-	margin: 24px 0 36px 0;
-}
-
-#gallery h2:after{
-	content: "»";
-	padding-left: 5px;
-}
-
-#gallery img{
-	height: 100%;
-	width: 100%;
-}
-
-aside{
-	margin-top: 75px;
-}
-
-aside h2{
-	color: black;
-	font-size: 11px;
-	font-weight: normal;
-	margin: 0;
-	padding: 0;
-	text-transform: uppercase;
-}
-
-aside h2:after{
-	content: "»";
-	padding-left: 5px;
-}
-
-aside article{
-	border-bottom: 1px solid #CCC;
-}
-
-aside article h3{
-	color: #005392;
-	font-size: 0.8em;
-	margin: 0;
-	padding: 0;
-}
-
-aside article p{
-	font-size: 0.8em;
-}
-
-aside article img.left{
-	height: 40px;
-	margin: 0 20px 0 0;
-	width: 60px;
-}
-
-footer{
-	border-top: 1px solid #E78931;
-	margin:80px 0 40px 0;
-}
-
-footer p{
-	color: #777;
-	font-size: 0.7em;
-}
-
-footer .navigation h2{
-	display: none;
-}
-
-footer .navigation ul{
-	margin: 28px 0 12px 0;
-	padding: 0;
-}
-
-footer .navigation ul li{
-	display: inline;
-	list-style-type: none;
-	padding-right: 20px;
-}
-
-footer .navigation ul li a{
-	color: #005392;
-	font-size: 0.7em;
-	font-weight: bold;
-}
-
-footer .contact h2{
-	color: black;
-	font-size: 11px;
-	font-weight: normal;
-	margin: 28px 0 12px 0;
-	padding: 0;
-	text-transform: uppercase;
-}
-
-footer .contact address{
-	color: #777;
-	font-size: 0.7em;
-	font-style: normal;
-	line-height: 1.4em;
-}
-
-footer .legal{
-	margin-top: -40px;
-}
-
-footer .legal h2{
-	display: none;
-}
-
-@media only screen and (max-width: 768px) {
-	aside{
-		margin-top: 0;
-	}
-	#sections{
-		margin-top: 10px;
-	}
-	footer{
-		margin: 0;
-	}
-	footer .legal{
-		margin-top: 10px;
-	}
-}
-
